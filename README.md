@@ -15,16 +15,16 @@ A professional technology blog site that allows logged in users to add, edit, co
 
 ## Installation
 Please download the following packages:
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "express-session": "^1.17.3",
-    "handlebars": "^4.7.7",
-    "jest": "^29.1.2",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.23.2"
+* "bcrypt": "^5.0.1",
+* "connect-session-sequelize": "^7.1.5",
+* "dotenv": "^16.0.3",
+* "express": "^4.18.1",
+* "express-handlebars": "^6.0.6",
+* "express-session": "^1.17.3",
+* "handlebars": "^4.7.7",
+* "jest": "^29.1.2",
+* "mysql2": "^2.3.3",
+* "sequelize": "^6.23.2"
 
 ## Contribution
 Made with ❤️ by Courtney
@@ -54,3 +54,4 @@ Please email me with questions!
 ![website-image](https://github.com/cvanbreda91/SQL-fiesta/blob/main/src/images/results.gif.gif?raw=true)
 
 ## Deployed Site
+https://salty-headland-67190.herokuapp.com/
