@@ -51,7 +51,7 @@ Please email me with questions!
 * cvanbreda91@gmail.com
 
 ## Screenshot
-![website-image](https://github.com/cvanbreda91/SQL-fiesta/blob/main/src/images/results.gif.gif?raw=true)
+![website-image](https://github.com/cvanbreda91/curly-octo-succotash/blob/main/public/images/2022-10-06.png?raw=true)
 
 ## Deployed Site
 https://salty-headland-67190.herokuapp.com/
