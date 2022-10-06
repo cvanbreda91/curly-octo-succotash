@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Now!</title>
+      <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div>
+    <header class="jumbotron">
+      <h1>
+        <a href="/">Tech Now!</a>
+      </h1>
+      <nav>
+        {{#if loggedIn}}
+        <button id="home" class="btn"><a href="/">Home</a></button>
+        <button id="dashboard" class="btn"><a href="/dashboard">dashboard</a></button>
+        <button id="logout" class="btn"><a href="/login">logout</a></button>
+        {{else}}
+        <button id="home" class="btn"><a href="/">Home</a></button>
+        <button id="dashboard" class="btn"><a href="/login">dashboard</a></button>
+        <button id="login" class="btn"><a href="/login">login</a></button>
+        <button id="sign-up" class="btn"><a href="/sign-up">sign up</a></button>
+        {{/if}}
+      </nav>
+    </header>
+    <main>
+      {{{ body }}}
+    </main>
+    <footer>
+      Made with ❤️ by Courtney
+    </footer>
+  </div>
+  
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
