@@ -2,7 +2,7 @@
   "name": "curly-octo-succotash",
   "version": "1.0.0",
   "description": "Module 14: Model-View-Controller (MVC) Challenge: Tech Blog",
-  "main": "server.js",
+  "main": "node server.js",
   "scripts": {
     "test": "jest",
     "seeds": "node seeds/index.js"
